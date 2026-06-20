@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/NovaForge/build/cmake_install.cmake",
+		"E:/NovaForge/build/source/engine/core/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
