@@ -9,3 +9,5 @@ Core Foundation implemented.
 Logging System added.
 
 Event System added.
+
+Command System added :D!
