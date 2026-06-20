@@ -1,3 +1,4 @@
 E:\NovaForge\source\engine\core\src\application\CoreApplication.cpp;E:\NovaForge\build\source\engine\core\NovaCore.dir\Debug\CoreApplication.obj
 E:\NovaForge\source\engine\core\src\modules\ModuleManager.cpp;E:\NovaForge\build\source\engine\core\NovaCore.dir\Debug\ModuleManager.obj
 E:\NovaForge\source\engine\core\src\logging\Logger.cpp;E:\NovaForge\build\source\engine\core\NovaCore.dir\Debug\Logger.obj
+E:\NovaForge\source\engine\core\src\events\EventBus.cpp;E:\NovaForge\build\source\engine\core\NovaCore.dir\Debug\EventBus.obj

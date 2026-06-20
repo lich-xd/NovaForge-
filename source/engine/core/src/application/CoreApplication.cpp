@@ -1,5 +1,7 @@
 #include <core/application/CoreApplication.h>
 #include <core/logging/Logger.h>
+#include <core/events/EventBus.h>
+#include <core/events/ApplicationStartedEvent.h>
 
 namespace nova::core
 {
@@ -7,6 +9,10 @@ namespace nova::core
 bool CoreApplication::initialize()
 {
     Logger::info("Nova Forge initializing");
+
+    ApplicationStartedEvent event;
+    
+    EventBus::publish(event);
 
     return m_moduleManager.initializeModules();
 }

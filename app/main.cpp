@@ -1,17 +1,30 @@
 #include <core/application/CoreApplication.h>
 
+#include <core/events/EventBus.h>
+#include <core/events/ApplicationStartedEvent.h>
+
+#include <core/logging/Logger.h>
+
 int main()
 {
-nova::core::CoreApplication app;
+    nova::core::EventBus::subscribe
+    <
+        nova::core::ApplicationStartedEvent
+    >(
+        [](const auto&)
+        {
+            nova::core::Logger::info(
+                "ApplicationStartedEvent received");
+        });
 
-if (!app.initialize())
-    return -1;
+    nova::core::CoreApplication app;
 
-app.run();
+    if (!app.initialize())
+        return -1;
 
-app.shutdown();
+    app.run();
 
-return 0;
+    app.shutdown();
 
-
+    return 0;
 }
