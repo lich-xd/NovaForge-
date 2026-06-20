@@ -11,13 +11,16 @@ Status:
 Accepted
 
 ## AD-0002
+
 Event-driven communication
 
 ## AD-0003
+
 Command Pattern for Undo/Redo
 
 ## AD-0004
+
 Service Locator
 
 Status:
-In Limbo...
+In Limbo
