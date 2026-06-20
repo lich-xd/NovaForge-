@@ -3,10 +3,23 @@
 #include <core/events/EventBus.h>
 #include <core/events/ApplicationStartedEvent.h>
 
+#include <core/commands/CommandManager.h>
+#include <core/commands/TestCommand.h>
+
 #include <core/logging/Logger.h>
 
 int main()
 {
+    nova::core::CommandManager commands;
+
+commands.executeCommand(
+    std::make_unique
+    <
+        nova::core::TestCommand
+    >());
+
+commands.undo();
+
     nova::core::EventBus::subscribe
     <
         nova::core::ApplicationStartedEvent
@@ -16,7 +29,8 @@ int main()
             nova::core::Logger::info(
                 "ApplicationStartedEvent received");
         });
-
+        
+        
     nova::core::CoreApplication app;
 
     if (!app.initialize())
@@ -27,4 +41,5 @@ int main()
     app.shutdown();
 
     return 0;
+
 }

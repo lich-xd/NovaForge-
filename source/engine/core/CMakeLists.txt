@@ -4,6 +4,7 @@ add_library(NovaCore STATIC
     src/modules/ModuleManager.cpp
     src/logging/Logger.cpp
     src/events/EventBus.cpp
+    src/commands/CommandManager.cpp
 )
 
 target_include_directories(NovaCore

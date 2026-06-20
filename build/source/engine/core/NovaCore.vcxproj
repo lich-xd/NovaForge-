@@ -280,6 +280,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="E:\NovaForge\source\engine\core\src\modules\ModuleManager.cpp" />
     <ClCompile Include="E:\NovaForge\source\engine\core\src\logging\Logger.cpp" />
     <ClCompile Include="E:\NovaForge\source\engine\core\src\events\EventBus.cpp" />
+    <ClCompile Include="E:\NovaForge\source\engine\core\src\commands\CommandManager.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
