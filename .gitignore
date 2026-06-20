@@ -1,0 +1,32 @@
+# Build
+build/
+out/
+bin/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.VC.db
+*.opendb
+
+# Debug
+Debug/
+Release/
+x64/
+x86/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
