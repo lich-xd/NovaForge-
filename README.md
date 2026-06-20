@@ -1,6 +1,6 @@
 **NovaForge** 
 
-OpenSourceDigitalAudioWorkstation
+Open Source Digital Audio Workstation
 
 > Sin límites paracrear.
 
