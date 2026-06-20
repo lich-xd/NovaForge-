@@ -11,7 +11,6 @@ desarrollada en C++ 23 utilizando JUCE.
 
 > •Profesional •Gratuita •Multiplataforma •Modular •Expandible
 
-> •Impulsadaporlacomunidad
 
 **Características de la v1.0**
 
@@ -31,7 +30,7 @@ desarrollada en C++ 23 utilizando JUCE.
 > •Windows •Linux •macOS
 
 <img src="./2majhail.png"
-style="width:0.13755in;height:0.12934in" />**Estado** 🚧Endesarrollo
+style="width:0.13755in;height:0.12934in" />**Estado** 🚧En desarrollo
 
 > 1
 
