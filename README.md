@@ -32,7 +32,6 @@ desarrollada en C++ 23 utilizando JUCE.
 <img src="./2majhail.png"
 style="width:0.13755in;height:0.12934in" />**Estado** 🚧En desarrollo
 
-> 1
 
 **Arquitectura**
 
@@ -61,4 +60,3 @@ Consulta:
 
 Sin límites para crear.
 
-> 2
