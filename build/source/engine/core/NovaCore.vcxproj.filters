@@ -7,6 +7,9 @@
     <ClCompile Include="E:\NovaForge\source\engine\core\src\modules\ModuleManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\NovaForge\source\engine\core\src\logging\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="E:\NovaForge\source\engine\core\CMakeLists.txt" />

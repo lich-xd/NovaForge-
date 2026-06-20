@@ -1,33 +1,26 @@
 #include <core/application/CoreApplication.h>
-
-#include <iostream>
+#include <core/logging/Logger.h>
 
 namespace nova::core
 {
 
 bool CoreApplication::initialize()
 {
-std::cout << "[NovaForge] Initialize\n";
+    Logger::info("Nova Forge initializing");
 
-
-return m_moduleManager.initializeModules();
-
-
+    return m_moduleManager.initializeModules();
 }
 
 void CoreApplication::run()
 {
-std::cout << "[NovaForge] Run\n";
+    Logger::info("Nova Forge running");
 }
 
 void CoreApplication::shutdown()
 {
-std::cout << "[NovaForge] Shutdown\n";
+    Logger::info("Nova Forge shutdown");
 
-
-m_moduleManager.shutdownModules();
-
-
+    m_moduleManager.shutdownModules();
 }
 
 }

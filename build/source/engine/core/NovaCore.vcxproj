@@ -278,6 +278,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="E:\NovaForge\source\engine\core\src\application\CoreApplication.cpp" />
     <ClCompile Include="E:\NovaForge\source\engine\core\src\modules\ModuleManager.cpp" />
+    <ClCompile Include="E:\NovaForge\source\engine\core\src\logging\Logger.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
